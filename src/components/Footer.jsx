@@ -14,8 +14,19 @@ const Footer = () => {
                             We are committed to providing the best medical diagnostic services. Trust our experts for accurate results.
                         </p>
                         <div className="flex gap-4">
-                            {[FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram].map((Icon, i) => (
-                                <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                            {[
+                                { Icon: FaFacebookF, url: 'https://facebook.com' },
+                                { Icon: FaTwitter, url: 'https://twitter.com' },
+                                { Icon: FaLinkedinIn, url: 'https://linkedin.com' },
+                                { Icon: FaInstagram, url: 'https://instagram.com' }
+                            ].map(({ Icon, url }, i) => (
+                                <a
+                                    key={i}
+                                    href={url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors"
+                                >
                                     <Icon size={18} />
                                 </a>
                             ))}

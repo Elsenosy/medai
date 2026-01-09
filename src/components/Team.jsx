@@ -27,9 +27,9 @@ const Team = () => {
                                 />
                                 {/* Social Overlay */}
                                 <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                                    <a href="#" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaFacebookF /></a>
-                                    <a href="#" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaTwitter /></a>
-                                    <a href="#" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaLinkedinIn /></a>
+                                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaFacebookF /></a>
+                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaTwitter /></a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 bg-white text-primary rounded-full hover:bg-secondary hover:text-white transition-colors"><FaLinkedinIn /></a>
                                 </div>
                             </div>
                             <div className="p-6">
